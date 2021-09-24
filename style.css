@@ -72,9 +72,7 @@ h1 {
   font-size: 50px;
   font-family: 'Teko', sans-serif;
   padding: 0px;
-  margin: 5px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 10px 5px 5px 5px;
   text-align: center;
 }
 
@@ -94,8 +92,8 @@ h3 {
 
 .text-section {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   margin: 50px 180px 0px 220px;
 }
@@ -109,7 +107,7 @@ h3 {
 
 .article-list {
   font-size: 20px;
-  margin: 0px 60px 10px 40px;
+  margin: 0px 60px 10px 30px;
   padding: auto;
 }
 
@@ -141,9 +139,15 @@ h3 {
   margin-left: 12%;
 }
 
-/* **** */
-/* Grid */
-/* **** */
+.grid-img {
+  max-width: 400px;
+  max-height: 500px;
+  margin: 20px 20px 0px 20px;
+  border-radius: 25px;
+}
+/* *********** */
+/* Card Layout */
+/* *********** */
 
 .wrapper {
   display: grid;
@@ -165,18 +169,14 @@ h3 {
   margin: 50px;
 }
 
-.grid-img {
-  max-width: 400px;
-  max-height: 500px;
-  margin: 20px 20px 0px 20px;
-  border-radius: 25px;
-}
-
 .position {
   font-size: 18px;
   font-family: 'Lato', sans-serrif;
   margin-top: 0px;
 }
+/* *********** */
+/* End Article */
+/* *********** */
 
 .list-img {
   max-width: 400px;
@@ -185,8 +185,8 @@ h3 {
 
 .list-box {
   display: flex;
-  justify-content: flex-start;
-  align-items:flex-start;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   margin: 50px 180px 0px 220px;
 }
