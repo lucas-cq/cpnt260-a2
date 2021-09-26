@@ -56,7 +56,7 @@ nav ul {
   list-style: none;
   font-family: 'Teko', sans-serif;
   font-size: 25px;
-  flex: wrap;
+  flex-wrap: wrap;
 }
 
 nav li {
@@ -96,20 +96,21 @@ h3 {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin: 50px 180px 0px 220px;
+  margin: 0 auto;
+  max-width: 100ch;
 }
 
 .article-text {
   font-size: 20px;
   margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 5px;
+  padding: 0 auto;
   line-height: 50px;
 }
 
 .article-list {
   font-size: 20px;
   margin: 0px 60px 10px 30px;
-  padding: auto;
+  padding: 0 auto;
 }
 
 /* ****** */
@@ -141,8 +142,8 @@ h3 {
 }
 
 .grid-img {
-  max-width: 400px;
-  max-height: 500px;
+  max-width: 300px;
+  max-height: 400px;
   margin: 20px 20px 0px 20px;
   border-radius: 25px;
 }
@@ -152,9 +153,9 @@ h3 {
 
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 5px;
-  margin: 10px 10% 10px 10%;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin: 10px 10% 70px 10%;
 }
 
 .card {
@@ -162,12 +163,12 @@ h3 {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  min-width: 400px;
-  max-width: 400px;
+  min-width: 300px;
+  max-width: 300px;
   background-color: #ed4e63;
   box-shadow: 20px 20px 15px grey;
   border-radius: 25px;
-  margin: 50px;
+  margin: 0 auto;
 }
 
 .position {
