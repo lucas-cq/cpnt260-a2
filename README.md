@@ -4,7 +4,7 @@
 ## Please Click on "Team" button for content
 
 ### Repository and Pages
-[Repository]()
+[Repository](https://github.com/lucas-cq/cpnt260-a2)
 [Pages]()
 
 
