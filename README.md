@@ -1,7 +1,7 @@
 # cpnt260-a2 Team Gallery
 ## By Lucas Cummings
 
-### Please Click on "Team" button for content
+## Please Click on "Team" button for content
 
 ### Repository and Pages
 [Repository]()
