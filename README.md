@@ -4,8 +4,8 @@
 ## My new content is on the "Team" page of this website
 
 ### Repository and Pages
-[Repository](https://github.com/lucas-cq/cpnt260-a2)
-[Pages](https://lucas-cq.github.io/cpnt260-a2/team.html)
+* [Repository](https://github.com/lucas-cq/cpnt260-a2)
+* [Pages](https://lucas-cq.github.io/cpnt260-a2/team.html)
 
 
 ### Code Review
